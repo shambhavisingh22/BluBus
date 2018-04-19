@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back1">
+        <ImageView
+            android:id="@+id/managetrips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/managetrips"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/managetripstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/managetrips"
+            android:paddingTop="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/black"
+            android:text="Manage all your trips at one place."
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

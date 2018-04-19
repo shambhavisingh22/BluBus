@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/cor1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF0000"
+        app:indicatorGravity="center|bottom"
+        app:radius="4dp"
+        app:slideInterval="2000"
+
+
+        />
+</LinearLayout>

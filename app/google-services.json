@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "249848200924",
+    "firebase_url": "https://busreservation-fc48a.firebaseio.com",
+    "project_id": "busreservation-fc48a",
+    "storage_bucket": "busreservation-fc48a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249848200924:android:72d94393df7cfdf8",
+        "android_client_info": {
+          "package_name": "com.example.shamb.busreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249848200924-sh69e7i9llqg212b38c4pubp9ch8d3cg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shamb.busreservation",
+            "certificate_hash": "2bba318594178f0ece0834fd1f247103e7fa68a4"
+          }
+        },
+        {
+          "client_id": "249848200924-14tpn9s83e6j39jbg6he8hj0rk5nmck1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdcGZ4Kkhl476gaPEd6MN9jyjAHOZH3xA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249848200924-14tpn9s83e6j39jbg6he8hj0rk5nmck1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back1">
+        <ImageView
+            android:id="@+id/easybooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/easybooking"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/booktext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/easybooking"
+            android:paddingTop="50dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/black"
+            android:text="Booking your preferred bus ticket is
+            just a few taps away"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back1">
+        <ImageView
+            android:id="@+id/trackbus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trackbus"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/trackbustext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/trackbus"
+            android:paddingTop="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/black"
+            android:text="Track real time location of your bus
+   and share with friends and family"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

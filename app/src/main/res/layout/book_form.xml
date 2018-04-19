@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1">
+    <android.support.v7.widget.CardView
+        android:id="@+id/contactcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/contactdetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Details :"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/name"
+                android:layout_below="@+id/contactdetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="   Name"
+                android:drawableLeft="@drawable/ic_action_name"/>
+            <EditText
+                android:id="@+id/phone"
+                android:layout_below="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="   Phone Number"
+                android:drawableLeft="@drawable/ic_action_phone"/>
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/phone"
+                android:hint="   Email-Id"
+                android:drawableLeft="@drawable/ic_action_email"
+                />
+            <EditText
+                android:id="@+id/seat"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/email"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/seat_normal"
+                android:layout_height="wrap_content"
+                android:hint="  No.Of Seats"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <!--
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactcard"
+        android:layout_marginTop="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Primary traveller :"
+                android:textSize="30dp"/>
+            <EditText
+                android:id="@+id/name"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/primary"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:hint="  Name of the traveller"/>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+            <EditText
+                android:id="@+id/age"
+                android:drawableLeft="@drawable/ic_action_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="           Age"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/name"
+                android:layout_toRightOf="@+id/spinner"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/age"
+                android:hint="Seat Number"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    -->
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/contactcard"/>
+</RelativeLayout>

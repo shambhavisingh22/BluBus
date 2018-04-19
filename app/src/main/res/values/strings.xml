@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bus Reservation</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="next">NEXT</string>
+    <string name="pause">||</string>
+    <string name="prev">|&lt;&lt;</string>
+    <string name="Next">&gt;&gt;|</string>
+    <string name="forward">&gt;&gt;</string>
+    <string name="back">&lt;&lt;</string>
+
+</resources>
